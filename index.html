@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/52eb9bd2ab.js" crossorigin="anonymous"></script>
+    <title>Bryan Portfolio</title>
+</head>
+<body>
+
+    <div class="container navbar">
+        <header>
+            <div class="lgo">
+                <h1> Bryan Martinez-Barrales</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#work">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="container main-info-section">
+        <div class="text">
+            <h1>
+                <span>H</span>
+                <span class="m-left">i</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>I</span>
+                <span class="m-left">'</span>
+                <span class="m-left">m</span>
+                <span class="name">B</span>
+                <span class="m-left name">r</span>
+                <span class="m-left name">y</span>
+                <span class="m-left name">a</span>
+                <span class="m-left name">n</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>A</span>
+                <span>W</span>
+                <span class="m-left">e</span>
+                <span class="m-left">b</span>
+                <span>D</span>
+                <span class="m-left">e</span>
+                <span class="m-left">s</span>
+                <span class="m-left">i</span>
+                <span class="m-left">g</span>
+                <span class="m-left">n</span>
+                <br>
+                <span>&</span>
+                <span>G</span>
+                <span class="m-left">r</span>
+                <span class="m-left">a</span>
+                <span class="m-left">p</span>
+                <span class="m-left">h</span>
+                <span class="m-left">i</span>
+                <span class="m-left">c</span>
+                <span>D</span>
+                <span class="m-left">e</span>
+                <span class="m-left">s</span>
+                <span class="m-left">i</span>
+                <span class="m-left">g</span>
+                <span class="m-left">n</span>
+                <br>
+                <span>S</span>
+                <span class="m-left">t</span>
+                <span class="m-left">u</span>
+                <span class="m-left">d</span>
+                <span class="m-left">e</span>
+                <span class="m-left">n</span>
+                <span class="m-left">t</span>
+            </h1>
+            <p>Html / CSS / Javascript / Photoshop</p>
+            <a href="#contact">Contact me</a>
+        </div>
+        <div class="profile-image">
+            <img src="img/koi.png" alt="">
+        </div>
+    </div>
+
+    <div id="about" class="bg-1">
+        <div class="container about">
+            <h1>About</h1>
+            <div class="about-me-info">
+                <p>My name is Bryan Martinez-Barrales, I am a student at Freehold High School whhich I 
+                    will graduate the year 2020. I am currently taking a Web Development & Design course as 
+                    well as a Digital Media course.</p>
+                <p> My Web Development & Design class is a 3-year course program, which starts in sophomore 
+                     year of high school, we learn Html, Css, and Javascript. During my past years I was 
+                     able gain more knowledge to improve my web skills for the future. Thus creating this one
+                     as well.</p>
+                <p> My Digital Media class started in my senior (currently), we learn photoshop & photography. 
+                    During these past months I was able to learn the basics of photoshop. I had some previous 
+                    knowledge and created some works during my freetime.  
+                </p>
+            </div>
+            <img src="img/dot-2.png" alt="">
+        </div>
+    </div>
+
+    <div id="skills" class="bg-2">
+        <div class="container skills">
+            <h1>Skills</h1>
+            <p class="skills-info">During my studies of Web Development & Design, I have acquired 
+                some knowledge of Html, Css, & Javascript. I've also acquired some knowledge of 
+                photoshop to work with my projects.
+            </p>
+            <div class="html" >
+                <div class="tag-html">
+                    <p>HTML</p>
+                </div>
+                <div class="progressbar">
+                    <div class="bar-html"></div>
+                </div>
+            </div>
+            <div class="html" >
+                <div class="tag-css">
+                    <p>CSS</p>
+                </div>
+                <div class="progressbar">
+                    <div class="bar-css"></div>
+                </div>
+            </div>
+            <div class="html" >
+                <div class="tag-javascript">
+                    <p>JS</p>
+                </div>
+                <div class="progressbar">
+                    <div class="bar-javascript"></div>
+                </div>
+            </div>
+            <div class="html" >
+                <div class="tag-photoshop">
+                    <p>Photoshop</p>
+                </div>
+                <div class="progressbar">
+                    <div class="bar-photoshop"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="work" class="bg-3">
+        <div class="container work">
+            <h1>Work</h1>
+            <div class="work-category">
+                <button id="designing" class="active" onclick="showRequiredCategory(this)">Web Design</button>
+                <button id="animation" onclick="showRequiredCategory(this)">Photoshop</button>
+                <button id="project" onclick="showRequiredCategory(this)">Animation</button>
+            </div>
+            <div class="category-designing showCategory">
+                <a href=""><img src="img/crow.png"></a>
+            </div>
+            <div class="category-animation hideCategory">
+                <a href=""><img src="img/Penguin Shirt.png"></a>
+                <a href=""><img src="img/Sakura.png"></a>
+                <a href=""><img src="img/koi.png"></a>
+                <a href=""><img src="img/crow.png"></a>
+                <a href=""><img src="img/Double-Exposure.jpg"></a>
+                <a href=""><img src="img/Double-Exposure-2.jpg"></a>
+                <a href=""><img src="img/Double-Exposure-3.jpg"></a>
+            </div>
+            <div class="category-project hideCategory">
+                <a href=""><img src="img/cherry-blossom.gif"></a>
+                <a href=""><img src="img/vintage.gif"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="bg-4">
+        <div class="container contact">
+            <h1>Contact</h1>
+                <div class="middle">
+                    <a class="btn" href="https://www.instagram.com/bryan.m.barrales/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="btn" href="https://twitter.com/brmartinez1209">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </div>
+        </div>
+    </div>
+
+    <footer>
+        <hr>
+        <p>2019 Copyright ©. All Rights Reserved</p>
+    </footer>
+
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/CSSPlugin.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
